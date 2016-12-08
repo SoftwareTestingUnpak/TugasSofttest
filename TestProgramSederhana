@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>WEB Kebun Raya</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="site-container"><!--Pembuka site-container-->
+
+<div id="header">	<!--Pembuka header-->
+	<img src="images/header_background.jpg"  >
+	
+	</div>	<!--penutup header-->
+
+<div id="menu">		<!--Pembuka menu-->	
+		<ul>
+			<li><a href="index.html">Beranda</a></li>
+			<li><a href="profil.html">Profil</a></li>
+			<li><a href="#">Tanaman</a>
+				<ul>
+					<li><a href="#">Jenis Tanaman</a></li>
+					<li><a href="#">galeri</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Kontak</a></li>
+		</ul>
+	</div>	<!--penutup menu-->
+
+<div id="content">	<!--Pembuka content-->
+	<br><h1>Selamat Datang di Web Kebun raya</h1>
+				<p>
+	               &nbsp &nbsp &nbsp &nbsp &nbsp &nbspKebunRaya Bogor atau <i>Bogor Botanical Garden</i> merupakan salah satu <br>penerapan budaya pelestarian alam dan aset wisata populer di Bogor.
+	            </p>
+	</div>	<!--penutup content-->
+
+<div id="sidebar">	<!--Pembuka sidebar--><img src="">
+	SIDEBAR
+	</div>	<!--penutup sidebar-->
+
+<div id="footer">	<!--Pembuka footer-->
+	FOOTER
+	</div>	<!--penutup footer-->
+
+
+	</div>	<!--penutup site-container-->
+
+</body>
+</html>
