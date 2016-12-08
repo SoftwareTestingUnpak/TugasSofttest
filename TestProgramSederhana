@@ -1,9 +1,24 @@
 <html>
 <head>
 	<title>WEB Kebun Raya</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<style type="text/css">
+.nav ul {list-style: none; margin: 0;}
+.nav li {float: left; text-align: center; width: 150px; background-color: #353839; border-right:2px solid white; position: relative;height: 30px; line-height: 30px;}
+.nav li ul li {float: top; width: 150px; text-align: center; padding-left: 5px; border-top:2px solid white;}
+.nav a {text-decoration: none; color: #c5c5c5; }
+.nav li ul {position: absolute; right: 30px; left: 8px; visibility: hidden;}
+.nav li:hover {background-color: #3aa8c1;}
+.nav li:hover ul {visibility: visible;}
+.nav {width: 1020px;
+	height: 35px;
+	border: 1px solid #000;
+	font: 14pt "Arial";
+	background-color: #353839;
+	padding-left: 30px;}
+.content {clear: both;}
+</style>
 <div id="site-container"><!--Pembuka site-container-->
 
 <div id="header">	<!--Pembuka header-->
@@ -11,7 +26,8 @@
 	
 	</div>	<!--penutup header-->
 
-<div id="menu">		<!--Pembuka menu-->	
+<div class="nav">		<!--Pembuka menu-->	
+
 		<ul>
 			<li><a href="index.html">Beranda</a></li>
 			<li><a href="profil.html">Profil</a></li>
@@ -21,7 +37,7 @@
 					<li><a href="krbogor.lipi.go.id/id/beritakebun/view_berita/496">galeri</a></li>
 				</ul>
 			</li>
-			<li><a href="#">Kontak</a></li>
+			<li><a href="www.krbogor.lipi.go.id/id/Tiket-dan-Jam-Layanan-Kebun-Raya-Bogor.html">Kontak</a></li>
 		</ul>
 	</div>	<!--penutup menu-->
 
@@ -33,11 +49,11 @@
 	</div>	<!--penutup content-->
 
 <div id="sidebar">	<!--Pembuka sidebar--><img src="">
-	SIDEBAR
+	
 	</div>	<!--penutup sidebar-->
 
 <div id="footer">	<!--Pembuka footer-->
-	FOOTER
+	
 	</div>	<!--penutup footer-->
 
 
